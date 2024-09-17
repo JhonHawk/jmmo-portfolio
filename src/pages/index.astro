@@ -1,10 +1,15 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "@/layouts/Layout.astro";
+import Footer from "@/sections/Footer.astro";
+import Hero from "@/sections/Hero.astro";
+import Info from "@/sections/Info.astro";
 ---
 
-<Layout title="Portfolio - Juan Manuel Martinez">
-	<main>
-		<h1 class="animate-fade-in text-white">¡Hola, mundo!</h1>
-	</main>
-</Layout>
+<Layout title='Portfolio - Juan Manuel Martinez'>
+  <Hero />
+  <main>
+    <Info />
 
+    <Footer />
+  </main>
+</Layout>
